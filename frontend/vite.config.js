@@ -6,10 +6,13 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:4000', // Backend server
+        target: 'http://localhost:4000',
         changeOrigin: true,
         secure: false,
       },
     },
+  },
+  build: {
+    outDir: 'dist', // 👈 Explicitly set the output directory
   },
 });
