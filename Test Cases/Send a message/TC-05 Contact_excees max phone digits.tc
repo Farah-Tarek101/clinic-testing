@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-05 Contact_excees max phone digits</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82292501-c87f-4257-bbc8-82c9f41988a2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-01-change_theme-to dark mode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6a25f61-91a8-43a8-9cf9-b5c7afb2ddcb</testCaseGuid>
+</TestCaseEntity>

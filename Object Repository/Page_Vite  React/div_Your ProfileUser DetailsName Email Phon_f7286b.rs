@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Your ProfileUser DetailsName Email Phon_f7286b</name>
+   <tag></tag>
+   <elementGuidId>a03a6d0c-cdc8-48bb-9b16-ef5cfc2bc9d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.profile-details</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Your ProfileUser DetailsName: Email: Phone: Date of Birth: Gender: MaleFemaleOth&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9754c073-9776-4962-8c77-57720cf8ae23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>profile-details</value>
+      <webElementGuid>6f378363-876c-4fe3-ac64-15170cf5bf38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your ProfileUser DetailsName: Email: Phone: Date of Birth: Gender: MaleFemaleOtherMedical History &amp; ComplaintsMedical History: pain in the legComplain: Vital SignsBlood Pressure: Oxygen Level: Heart Rate: Temperature: SaveCancel</value>
+      <webElementGuid>293b8073-848f-4f6e-b99a-c7a1896be073</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;profile-container&quot;]/div[@class=&quot;profile-details&quot;]</value>
+      <webElementGuid>1a90a600-cc44-45d2-b15d-f7b76ffc0d37</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]</value>
+      <webElementGuid>2b8eba28-5a52-442e-8fa3-f48275cc7852</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farah Tarek Ali El-Askalany'])[1]/following::div[1]</value>
+      <webElementGuid>8e0eb9f5-389e-4e73-b7f2-86ab9cd9b444</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]</value>
+      <webElementGuid>a5d44742-33d9-469e-98a5-55718dfd777a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Your ProfileUser DetailsName: Email: Phone: Date of Birth: Gender: MaleFemaleOtherMedical History &amp; ComplaintsMedical History: pain in the legComplain: Vital SignsBlood Pressure: Oxygen Level: Heart Rate: Temperature: SaveCancel' or . = 'Your ProfileUser DetailsName: Email: Phone: Date of Birth: Gender: MaleFemaleOtherMedical History &amp; ComplaintsMedical History: pain in the legComplain: Vital SignsBlood Pressure: Oxygen Level: Heart Rate: Temperature: SaveCancel')]</value>
+      <webElementGuid>9092c380-4ba1-45ea-8cdc-a4b83bf55b9f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

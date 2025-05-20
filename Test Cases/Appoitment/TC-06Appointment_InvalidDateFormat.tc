@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-06Appointment_InvalidDateFormat</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60892fbb-6134-458e-ab52-7573b6ba39f1</testCaseGuid>
+</TestCaseEntity>

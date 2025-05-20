@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-07 Profile_DuplicateEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c88b2fb-4070-4f98-9a48-474e56bd7251</testCaseGuid>
+</TestCaseEntity>

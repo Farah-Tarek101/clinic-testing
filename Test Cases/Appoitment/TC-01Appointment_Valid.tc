@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user books an appointment</description>
+   <name>TC-01Appointment_Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0787370d-9626-410e-9d1b-da76edf423b1</testCaseGuid>
+</TestCaseEntity>

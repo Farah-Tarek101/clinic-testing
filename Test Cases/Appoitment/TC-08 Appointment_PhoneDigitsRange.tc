@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-08 Appointment_PhoneDigitsRange</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>55aedb1f-7712-47ee-9b11-8e4e6a27acb5</testCaseGuid>
+</TestCaseEntity>

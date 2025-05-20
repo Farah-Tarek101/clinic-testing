@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-07 Appointment_InvalidEmailFormat</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c8513fd-6c61-49df-a58f-9a3354de1207</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_User DetailsName Email Phone Date of Bi_8b3842</name>
+   <tag></tag>
+   <elementGuidId>2f2e7e17-5f8f-49b5-886f-fd2fc2978e55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.profile-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;User DetailsName: Email: Phone: Date of Birth: Gender: MaleFemaleOther&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2908f0d2-3765-40ee-bb83-9ca0e5add054</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>profile-box</value>
+      <webElementGuid>2c795b95-838d-42bf-a1c1-0d0e703619d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User DetailsName: Email: Phone: Date of Birth: Gender: MaleFemaleOther</value>
+      <webElementGuid>2db46be3-cbe8-4e4c-973c-bc498512407f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;profile-container&quot;]/div[@class=&quot;profile-details&quot;]/div[@class=&quot;profile-info&quot;]/div[@class=&quot;profile-box&quot;]</value>
+      <webElementGuid>5050a446-bc59-4ad9-9054-40585725ce01</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div</value>
+      <webElementGuid>fd29051c-6e9a-45ba-9ca6-b18aaa038a31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Profile'])[1]/following::div[2]</value>
+      <webElementGuid>ffb5eb03-c89f-47e0-9c8f-cb0eef5e9588</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farah Tarek Ali El-Askalany'])[1]/following::div[3]</value>
+      <webElementGuid>c6be0dc0-3ba7-4ace-9593-43d9818a5409</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div</value>
+      <webElementGuid>b0868c90-7f8c-41b3-bb91-d8760b870c1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'User DetailsName: Email: Phone: Date of Birth: Gender: MaleFemaleOther' or . = 'User DetailsName: Email: Phone: Date of Birth: Gender: MaleFemaleOther')]</value>
+      <webElementGuid>dcb3f6b6-4f0b-41ec-a56d-cb65348ffb9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

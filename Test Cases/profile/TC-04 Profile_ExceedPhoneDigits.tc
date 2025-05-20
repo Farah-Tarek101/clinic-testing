@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-04 Profile_ExceedPhoneDigits</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d7030c6-c1d2-40fe-bf12-340e9166fb84</testCaseGuid>
+</TestCaseEntity>

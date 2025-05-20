@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-12_Profile_EmptyPersonalInfoField</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ffa5852a-a4b8-49ce-bf22-0c330b8e967f</testCaseGuid>
+</TestCaseEntity>

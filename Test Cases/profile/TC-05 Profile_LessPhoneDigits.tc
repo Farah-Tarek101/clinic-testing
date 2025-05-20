@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-05 Profile_LessPhoneDigits</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9a1fb9f-eedc-4ce6-af59-c1b2eaab5362</testCaseGuid>
+</TestCaseEntity>

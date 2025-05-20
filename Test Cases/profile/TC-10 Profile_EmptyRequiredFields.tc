@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-10 Profile_EmptyRequiredFields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eddc1eb7-85b1-4e75-ae00-d79159a25eda</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-06Profile_ValidPhoneNumber tesiting</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd90db0a-cf35-49a0-9e22-b53ca440faae</testCaseGuid>
+</TestCaseEntity>

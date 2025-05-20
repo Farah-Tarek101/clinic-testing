@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-08 Profile_InvalidEmailFormat</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>77ea4c20-2d38-4ef7-ab74-672d52dc6f35</testCaseGuid>
+</TestCaseEntity>
