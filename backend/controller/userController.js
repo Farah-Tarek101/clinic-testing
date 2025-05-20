@@ -1,9 +1,9 @@
+import passport from "passport";
 import { catchAsyncErrors } from "../middlewares/catchAsyncErrors.js";
 import ErrorHandler from "../middlewares/error.js";
 import { Appointment } from "../models/appointmentSchema.js";
 import { User } from "../models/userSchema.js";
 import { generateToken } from "../utils/jwtToken.js";
-import passport from "passport";
 // Function to check if password meets criteria
 const validatePassword = (password) => {
   const passwordRegex = /^(?=.*[a-z]).+$/; // At least one lowercase letters
@@ -364,35 +364,76 @@ export const logoutAdmin = catchAsyncErrors(async (req, res, next) => {
 // Update logoutPatient to use the universal logout
 export const logoutPatient = catchAsyncErrors(async (req, res, next) => {
   return logout(req, res, next);
-});export const updateProfile = catchAsyncErrors(async (req, res, next) => {
+});
+export const updateProfile = catchAsyncErrors(async (req, res, next) => {
   try {
-    console.log("Request Body:", req.body); // Log the incoming data
+    const {
+      fullName,
+      email,
+      phone,
+      dob,
+      gender,
+      medicalHistory,
+      complain,
+      bloodPressure,
+      oxygenLevel,
+      heartRate,
+      temperature,
+    } = req.body;
 
-    const { fullName, email, phone, dob, gender, medicalHistory, complain, bloodPressure, oxygenLevel, heartRate, temperature } = req.body;
+    // Validate phone number: only digits and length must be exactly 11 (Egypt standard)
+    if (!/^\d{11}$/.test(phone)) {
+      return next(new ErrorHandler("Invalid phone number. It must be 11 digits.", 400));
+    }
 
-    // Find and update the user by their ID
+    // Check if the new email is already used by another user
+    const existingUser = await User.findOne({ email });
+    if (existingUser && existingUser._id.toString() !== req.user.id) {
+      return next(new ErrorHandler("Email is already taken by another user.", 400));
+    }
+
+    // Validate numeric fields if they are present
+    const numericFields = { bloodPressure, oxygenLevel, heartRate, temperature };
+    for (const [key, value] of Object.entries(numericFields)) {
+      if (value !== undefined && isNaN(value)) {
+        return next(new ErrorHandler(`${key} must be a number.`, 400));
+      }
+    }
+
+    // Perform the update
     const updatedUser = await User.findByIdAndUpdate(
-      req.user.id, // Replace this with the correct user ID logic
-      { fullName, email, phone, dob, gender, medicalHistory, complain, bloodPressure, oxygenLevel, heartRate, temperature }, // Include medicalHistory
-      { new: true, runValidators: true } // Return updated document and validate input
+      req.user.id,
+      {
+        fullName,
+        email,
+        phone,
+        dob,
+        gender,
+        medicalHistory,
+        complain,
+        bloodPressure,
+        oxygenLevel,
+        heartRate,
+        temperature,
+      },
+      { new: true, runValidators: true }
     );
 
     if (!updatedUser) {
-      return next(new ErrorHandler("User not found!", 404)); // Handle not found error
+      return next(new ErrorHandler("User not found!", 404));
     }
 
-    // Respond with the updated user data
     res.status(200).json({
       success: true,
       user: updatedUser,
     });
+
   } catch (error) {
     console.error("Error updating profile:", error.message);
-
-    // Respond with an internal server error if any exception occurs
     res.status(500).json({ success: false, message: "Server Error" });
   }
 });
+
 
 // Get User Profile
 export const getUserProfile = async (req, res) => { 
@@ -406,7 +447,6 @@ export const getUserProfile = async (req, res) => {
     res.status(500).json({ success: false, message: 'Server error' });
   }
 };
-
 
 export const handleUpdateMedicalHistory = catchAsyncErrors(async (req, res, next) => {
   const { medicalHistory } = req.body;
